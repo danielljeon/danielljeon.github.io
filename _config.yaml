@@ -1,0 +1,6 @@
+# Jkelly Configuration.
+
+# Super simple, default everything.
+#auto: true
+
+markdown: GFM  # GitHub Flavoured Markdown: https://github.github.com/gfm/.

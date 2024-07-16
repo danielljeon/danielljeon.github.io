@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width initial-scale=1.0">
+
+    <!-- Add favicon. -->
+    <link rel="icon" href="/assets/img/plane-512x512.png"
+          type="image/png">
+
+    <!-- Tab title. -->
+    <title>{{ page.title | default: site.title | default: "title" }}</title>
+
+    <!-- MathJax JavaScript with equation delimiter configuration. -->
+    <script>
+        window.MathJax = {
+            tex: {
+                inlineMath: [["$", "$"]],  // Set inline delimiters.
+                displayMath: [["$$", "$$"]]  // Set display delimiters.
+            },
+            svg: {
+                fontCache: "global"
+            }
+        };
+    </script>
+    <script id="MathJax-script" async
+            src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+
+    <script defer>
+        // JavaScript redirect handling for markdown header redirects.
+        //  Event Listener for DOMContentLoaded: Ensures the script runs only after the entire document is loaded.
+        //  Select Specific Links: It uses querySelectorAll with a[href^="#"] to select only those <a> tags whose href attributes start exactly with a #.
+        //  Modify Each Link: For each selected link, the script removes digits that directly follow the # and are immediately followed by a hyphen.
+        //  Update Each Link's href: It then updates the href attribute with the modified anchor link.
+        document.addEventListener("DOMContentLoaded", function () {
+            var links = document.querySelectorAll("a[href^='#']");
+            links.forEach(function (link) {
+                var originalHref = link.getAttribute("href");
+                var modifiedHref = originalHref.replace(/^#(\d+)-/, "#");
+                link.setAttribute("href", modifiedHref);
+            });
+        });
+    </script>
+
+</head>
+
+<body>
+
+<header>
+    <div class="markdown-body" style="padding: 4ch; text-align:center;">
+        <a href="https://danielljeon.github.io/">
+            danielljeon.github.io
+        </a>
+    </div>
+</header>
+
+<main>
+    <div class="markdown-body" style="padding: 4ch;">
+        {{ content }}
+    </div>
+</main>
+
+<footer>
+    <div class="markdown-body" style="padding: 4ch; text-align:center;">
+        <p>
+            {{ site.time | date: "%Y-%m-%d" }}
+        </p>
+    </div>
+</footer>
+
+</body>
+
+</html>
