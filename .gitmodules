@@ -1,0 +1,6 @@
+[submodule "danielljeon"]
+	path = danielljeon
+	url = https://github.com/danielljeon/danielljeon
+[submodule "docs"]
+	path = docs
+	url = https://github.com/danielljeon/docs
