@@ -10,7 +10,8 @@ Personal notes: [docs](docs).
 
 ## Projects
 
-_Coming soon!_
+1. [embedded](embedded) systems / software.
+2. _More coming soon!_
 
 ## Setup
 

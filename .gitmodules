@@ -4,3 +4,6 @@
 [submodule "docs"]
 	path = docs
 	url = https://github.com/danielljeon/docs
+[submodule "embedded/lamp"]
+	path = embedded/lamp
+	url = https://github.com/danielljeon/lamp
