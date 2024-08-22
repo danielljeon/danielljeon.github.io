@@ -7,3 +7,6 @@
 [submodule "embedded/lamp"]
 	path = embedded/lamp
 	url = https://github.com/danielljeon/lamp
+[submodule "embedded/nerve"]
+	path = embedded/nerve
+	url = https://github.com/danielljeon/nerve
