@@ -1,7 +1,5 @@
 # danielljeon.github.io
 
-Personal GitHub pages site.
-
 ## Info & Docs
 
 About me: [danielljeon](danielljeon).
@@ -13,7 +11,7 @@ Personal notes: [docs](docs).
 ### Embedded Software Projects
 
 [nerve](https://github.com/danielljeon/nerve): STM32F446RE controller with
-telemetry ICs .
+telemetry ICs.
 
 [tandem](https://github.com/danielljeon/tandem): STM32L432KC secondary
 controller to primary Nerve controller.
