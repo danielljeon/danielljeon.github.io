@@ -10,8 +10,15 @@ Personal notes: [docs](docs).
 
 ## Projects
 
-1. [embedded](embedded) systems / software.
-2. _More coming soon!_
+### Embedded Software Projects
+
+[nerve](https://github.com/danielljeon/nerve): STM32F446RE controller with
+telemetry ICs .
+
+[tandem](https://github.com/danielljeon/tandem): STM32L432KC secondary
+controller to primary Nerve controller.
+
+[lamp](https://github.com/danielljeon/lamp): STM32L432KC driving WS2812B LEDs.
 
 ## Setup
 
