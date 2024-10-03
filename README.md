@@ -13,8 +13,8 @@ Personal notes: [docs](docs).
 [nerve](https://github.com/danielljeon/nerve): STM32F446RE controller with
 telemetry ICs.
 
-[tandem](https://github.com/danielljeon/tandem): STM32L432KC secondary
-controller to primary Nerve controller.
+- [gopher](https://github.com/danielljeon/gopher): Python based radio and
+  telemetry desktop app for XBee radios.
 
 [lamp](https://github.com/danielljeon/lamp): STM32L432KC driving WS2812B LEDs.
 
