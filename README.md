@@ -8,15 +8,16 @@ Personal notes: [docs](docs).
 
 ## Projects
 
-### Embedded Software Projects
+### Embedded Systems & Firmware Projects
 
-[nerve](https://github.com/danielljeon/nerve): STM32F446RE controller with
-telemetry ICs.
+[nerve](https://github.com/danielljeon/nerve): STM32F446RE based general purpose
+controller with telemetry ICs.
 
+- [nerve_ada_board](https://github.com/danielljeon/nerve_ada_board): Nerve
+  controller dev board using off-the-shelf modules, made in KiCad with KiBot
+  workflows.
 - [gopher](https://github.com/danielljeon/gopher): Python based radio and
   telemetry desktop app for XBee radios.
-
-[lamp](https://github.com/danielljeon/lamp): STM32L432KC driving WS2812B LEDs.
 
 ## Setup
 
