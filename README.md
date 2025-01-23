@@ -25,6 +25,11 @@ controller with telemetry ICs.
 - [gopher](https://github.com/danielljeon/gopher): Python based radio and
   telemetry desktop app for XBee radios.
 
+### Interesting Academic and Small Projects
+
+- [soft_solution](https://github.com/danielljeon/soft_solution): Soft robotic
+  gripper design project for university CAD course, completed in Fall 2023.
+
 ## Setup
 
 This GitHub Pages repository uses submodules to pull in documentation and
