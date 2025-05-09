@@ -20,8 +20,8 @@ serves as a testbed for robotics and controls development.
 
 Firmware:
 
-- [nerve](https://github.com/danielljeon/nerve): STM32F446RE based general
-  purpose controller with telemetry ICs.
+- [nerve](https://github.com/danielljeon/nerve): Nerve controls development
+  platform.
 
 Hardware:
 
@@ -41,6 +41,14 @@ Additional Software:
 
 - [gopher](https://github.com/danielljeon/gopher): Python based radio and
   telemetry desktop app for XBee radios.
+
+### PWM Node: CAN Bus PWM Actuator Control
+
+🦾 PWM node is a simple PWM controller designed for CAN-based control of various
+electro-mechanical components such as servo motors.
+
+1. [pwm_node](https://github.com/danielljeon/pwm_node): Firmware.
+2. [pwm_node_pcb](https://github.com/danielljeon/pwm_node_pcb): PCB hardware.
 
 ---
 
