@@ -20,35 +20,37 @@ serves as a testbed for robotics and controls development.
 
 Firmware:
 
-- [nerve](https://github.com/danielljeon/nerve): Nerve controls development
-  platform.
+- [nerve](https://github.com/danielljeon/nerve): Firmware for CAN-based control
+  systems dev platform.
 
 Hardware:
 
-- [nerve_pcb](https://github.com/danielljeon/nerve_pcb): Production optimized
-  PCB for the STM32 based nerve controller firmware.
-- [nerve_gps_pcb](https://github.com/danielljeon/nerve_gps_pcb): GPS
-  board-to-board module for `nerve_pcb`.
-- [nerve_radio_pcb](https://github.com/danielljeon/nerve_radio_pcb): XBee radio
-  board-to-board module for `nerve_pcb`.
+- [nerve_pcb](https://github.com/danielljeon/nerve_pcb): PCB for CAN-based
+  control systems dev platform.
+- [nerve_gps_pcb](https://github.com/danielljeon/nerve_gps_pcb): GPS module to
+  `nerve_pcb`.
+- [nerve_radio_pcb](https://github.com/danielljeon/nerve_radio_pcb): Radio and
+  power supply module to `nerve_pcb`.
 
 
-- [nerve_ada_board](https://github.com/danielljeon/nerve_ada_board): Nerve
-  controller dev board using off-the-shelf modules, made in KiCad with KiBot
-  workflows.
+- [nerve_ada_board](https://github.com/danielljeon/nerve_ada_board): Nerve dev
+  board using off-the-shelf modules.
 
-Additional Software:
+Additional Software/Hardware:
 
-- [gopher](https://github.com/danielljeon/gopher): Python based radio and
-  telemetry desktop app for XBee radios.
+- [gopher](https://github.com/danielljeon/gopher): Ground station for Nerve
+  controller system.
+    - Previously a Python desktop application for telemetry via XBee radios.
 
 ### PWM Node: CAN Bus PWM Actuator Control
 
 🦾 PWM node is a simple PWM controller designed for CAN-based control of various
 electro-mechanical components such as servo motors.
 
-1. [pwm_node](https://github.com/danielljeon/pwm_node): Firmware.
-2. [pwm_node_pcb](https://github.com/danielljeon/pwm_node_pcb): PCB hardware.
+1. [pwm_node](https://github.com/danielljeon/pwm_node): Firmware for
+   CAN-controlled PWM controller.
+2. [pwm_node_pcb](https://github.com/danielljeon/pwm_node_pcb): PCB for
+   CAN-controlled PWM controller.
 
 ---
 
@@ -67,9 +69,11 @@ gripper design project for university CAD course, completed in Fall 2023.
 🤌 Robotic hand project for actuators/power electronics and
 sensors/instrumentation university courses.
 
-1. [robotic_hand](https://github.com/danielljeon/robotic_hand): Firmware.
+1. [robotic_hand](https://github.com/danielljeon/robotic_hand): firmware.
 2. [robotic_hand_pcb](https://github.com/danielljeon/robotic_hand_pcb): PCB
    hardware.
+3. [robotic_hand_wireless](https://github.com/danielljeon/robotic_hand_wireless):
+   XBee wireless telemetry display desktop application.
 
 ---
 
