@@ -42,16 +42,6 @@ Additional Software/Hardware:
   controller system.
     - Previously a Python desktop application for telemetry via XBee radios.
 
-### PWM Node: CAN Bus PWM Actuator Control
-
-🦾 PWM node is a simple PWM controller designed for CAN-based control of various
-electro-mechanical components such as servo motors.
-
-1. [pwm_node](https://github.com/danielljeon/pwm_node): Firmware for
-   CAN-controlled PWM controller.
-2. [pwm_node_pcb](https://github.com/danielljeon/pwm_node_pcb): PCB for
-   CAN-controlled PWM controller.
-
 ---
 
 ## Interesting Academic and Small Projects
