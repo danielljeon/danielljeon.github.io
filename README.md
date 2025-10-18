@@ -51,7 +51,7 @@ Additional Software/Hardware:
 🎈 Pneumatic gripper project focusing on silicone mold design automated with
 software for rapid design flexibility.
 
-[soft_solution](https://github.com/danielljeon/soft_solution): Soft robotic
+[soft_solution](https://github.com/danielljeon/soft_solution): soft robotic
 gripper design project for university CAD course, completed in Fall 2023.
 
 ### Robotic Hand: 5 DOF Humanoid Hand Prototype
@@ -64,6 +64,23 @@ sensors/instrumentation university courses.
    hardware.
 3. [robotic_hand_wireless](https://github.com/danielljeon/robotic_hand_wireless):
    XBee wireless telemetry display desktop application.
+
+### Maze Bot: Terrain and Maze Solving Robot
+
+🐁 Terrain and maze solving robot for mechatronics design university course.
+
+1. [maze_bot](https://github.com/danielljeon/maze_bot): firmware.
+2. [maze_bot_pcb](https://github.com/danielljeon/maze_bot_pcb):
+   electronic schematics (PCB not permitted by project rules).
+
+### Drop Detect: FreeRTOS Soldering Iron Drop-Triggered Shield
+
+🛡️ Soldering iron drop-triggered shield for real time embedded systems
+university course.
+
+1. [drop_detect](https://github.com/danielljeon/drop_detect): firmware.
+2. [drop_detect_pcb](https://github.com/danielljeon/drop_detect_pcb): PCB
+   hardware.
 
 ---
 
