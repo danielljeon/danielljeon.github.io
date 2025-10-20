@@ -91,13 +91,13 @@ sensors/instrumentation university courses.
 
 ### Maze Bot: Terrain and Maze Solving Robot
 
+🐁 Terrain and maze solving robot for mechatronics design university course.
+
 - Closed cloop control systems:
     - Bilinear transform z-domain PIDs.
     - Yaw rate control, heading control and linear position control.
 - Low-level embedded firmware (STM32L432KC).
 - Robotic orientation frames (quaternion).
-
-🐁 Terrain and maze solving robot for mechatronics design university course.
 
 1. [maze_bot](https://github.com/danielljeon/maze_bot): firmware.
 2. [maze_bot_pcb](https://github.com/danielljeon/maze_bot_pcb):
@@ -105,13 +105,13 @@ sensors/instrumentation university courses.
 
 ### Drop Detect: FreeRTOS Soldering Iron Drop-Triggered Shield
 
+🛡️ Soldering iron drop-triggered shield for real time embedded systems
+university course.
+
 - Low-level embedded firmware (STM32L432KC):
     - FreeRTOS.
 - Bare metal design analysis:
     - Scheduler design, task execution timing and static code analysis.
-
-🛡️ Soldering iron drop-triggered shield for real time embedded systems
-university course.
 
 1. [drop_detect](https://github.com/danielljeon/drop_detect): firmware.
 2. [drop_detect_pcb](https://github.com/danielljeon/drop_detect_pcb): PCB
