@@ -28,9 +28,9 @@ serves as a testbed for robotics and controls development.
 - Sensors and Wireless Modules:
     - Barometer, GNSS, Inertial Measurement Unit (IMU) and XBee.
 
-|                      Nerve Stack                      |                        Nerve Stack with Enclosure                         |
-|:-----------------------------------------------------:|:-------------------------------------------------------------------------:|
-| ![nerve_stack.jpeg](assets/pictures/nerve_stack.jpeg) | ![nerve_stack_enclosure.jpeg](assets/pictures/nerve_stack_enclosure.jpeg) |
+|                                    Nerve Stack                                     |                                  Nerve Stack with Enclosure                                  |
+|:----------------------------------------------------------------------------------:|:--------------------------------------------------------------------------------------------:|
+| <div align="center"><img src="assets/pictures/nerve_stack.jpeg" width="50%"></div> | <div align="center"><img src="assets/pictures/nerve_stack_enclosure.jpeg" width="50%"></div> |
 
 Firmware:
 
