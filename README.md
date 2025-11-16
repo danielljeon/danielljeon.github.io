@@ -69,8 +69,8 @@ software for rapid design flexibility.
 - CAD and FEA analysis.
 - Python STL file manipulation.
 
-[soft_solution](https://github.com/danielljeon/soft_solution): soft robotic
-gripper design project for university CAD course, completed in Fall 2023.
+[soft_solution](https://github.com/danielljeon/soft_solution): software and
+documentation.
 
 ### Robotic Hand: 5 DOF Humanoid Hand Prototype
 
@@ -113,9 +113,18 @@ university course.
 - Bare metal design analysis:
     - Scheduler design, task execution timing and static code analysis.
 
-1. [drop_detect](https://github.com/danielljeon/drop_detect): firmware.
-2. [drop_detect_pcb](https://github.com/danielljeon/drop_detect_pcb): PCB
-   hardware.
+[drop_detect](https://github.com/danielljeon/drop_detect): firmware.
+
+### CV Relevance Learning: Online-learning CV Relevance Classifier
+
+📷 Online-learning relevance classifier built on pre-trained computer vision for
+machine learning university course.
+
+- k-Nearest Neighbours and Incremental Gaussian Naive Bayes relevance prediction
+  model for YOLOv5 detection.
+
+[cv_relevance_learning](https://github.com/danielljeon/cv_relevance_learning):
+software.
 
 ---
 
