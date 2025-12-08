@@ -136,5 +136,9 @@ references.
 Quick command to pull changes from remote submodules:
 
 ```shell
+git submodule update --init --recursive --remote
+```
+
+```shell
 git submodule update --remote --merge
 ```
