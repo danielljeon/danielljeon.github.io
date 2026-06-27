@@ -5,13 +5,15 @@
 
 :root {
     --ink: #0E1116; /* page background */
-    --panel: #161B22; /* card surface    */
-    --panel-2: #1B2230; /* raised cell     */
-    --line: #2A323D; /* hairline rules  */
-    --text: #E6E9EF; /* primary text    */
-    --muted: #8B97A7; /* secondary text  */
-    --copper: #D98A4E; /* accent          */
-    --copper-br: #F0A862; /* accent hover    */
+    --panel: #161B22; /* card surface */
+    --panel-2: #1B2230; /* raised cell */
+    --line: #2A323D; /* hairline rules */
+    --text: #E6E9EF; /* primary text */
+    --muted: #8B97A7; /* secondary text */
+    --copper: #D98A4E; /* accent */
+    --copper-br: #F0A862; /* accent hover */
+    --hyperlink-blue: #58A6FF; /* hyperlink primary text */
+    --hyperlink-blue-hover: #79C0FF; /* hyperlink text hover */
 
     --maxw: 1120px;
     --gap: 1.5rem;
@@ -352,6 +354,7 @@ a:hover {
 }
 
 .repos a {
+    color: var(--hyperlink-blue);
     font-family: var(--f-mono);
     font-size: .82rem;
     padding: .3rem .65rem;
@@ -362,12 +365,14 @@ a:hover {
 }
 
 .repos a:hover {
+    color: var(--hyperlink-blue-hover);
+    text-decoration-color: var(--hyperlink-blue-hover);
     border-color: var(--copper);
 }
 
 .repos a::before {
     content: "\203A\00a0";
-    color: var(--copper);
+    color: var(--hyperlink-blue);
 }
 
 /* ===================== Footer sheet ===================== */
