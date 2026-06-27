@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Daniel Jeon - Embedded Systems &amp; Hardware</title>
+    <meta name="description"
+          content="Cool projects by Daniel Jeon.">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600&family=JetBrains+Mono:wght@400;500&family=Space+Grotesk:wght@500;600;700&display=swap"
+          rel="stylesheet">
+
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<a class="skip" href="#projects">Skip to projects</a>
+
+<!-- ===== Header / title block ===== -->
+<header class="masthead">
+    <nav class="nav" aria-label="Primary">
+        <span class="nav__mark">danielljeon</span>
+        <ul class="nav__links">
+            <li><a href="#projects_grid">Projects</a></li>
+            <li><a href="https://github.com/danielljeon">GitHub&nbsp;&#8599;</a>
+            </li>
+            <li>
+                <a href="https://github.com/danielljeon/docs">Notes&nbsp;&#8599;</a>
+            </li>
+        </ul>
+    </nav>
+
+    <div class="titleblock">
+        <div class="titleblock__name">
+            <span class="eyebrow">Cool stuff made by</span>
+            <h1>Daniel Jeon</h1>
+            <p class="lede">Currently working on the part of every robotics
+                project nobody enjoys</p>
+        </div>
+        <dl class="titleblock__meta">
+            <div>
+                <dt>Focus</dt>
+                <dd>Firmware &middot; PCB &middot; Controls</dd>
+            </div>
+            <div>
+                <dt>Platforms</dt>
+                <dd>STM32 &middot; FreeRTOS &middot; CAN</dd>
+            </div>
+            <div>
+                <dt>Source</dt>
+                <dd><a href="https://github.com/danielljeon">github.com/danielljeon</a>
+                </dd>
+            </div>
+        </dl>
+    </div>
+</header>
+
+<main id="projects">
+    <section class="section" id="projects_grid">
+        <div class="section__head">
+            <h2>Projects</h2>
+            <span class="rule" aria-hidden="true"></span>
+        </div>
+
+        <div class="grid">
+
+            <article class="card">
+                <figure class="card__cover">
+                    <img src="assets/pictures/maze_bot.gif"
+                         alt="maze_bot image" loading="lazy">
+                </figure>
+                <div class="card__body">
+                    <span class="tag">Mechatronics</span>
+                    <h3>Maze Bot - Terrain &amp; Maze Solver</h3>
+                    <p class="card__desc">A terrain and maze-solving robot for a
+                        mechatronics design course, running closed-loop control
+                        across yaw rate, heading, and linear position.</p>
+                    <ul class="specs">
+                        <li>Bilinear-transform z-domain</li>
+                        <li>STM32L432KC firmware</li>
+                        <li>Cascade control systems</li>
+                    </ul>
+                    <div class="repos">
+                        <a href="https://github.com/danielljeon/maze_bot">maze_bot</a>
+                    </div>
+                </div>
+            </article>
+
+            <article class="card">
+                <figure class="card__cover card__cover--video">
+                    <iframe
+                            src="https://www.youtube.com/embed/NQiACUOMe8s?autoplay=1&amp;mute=1&amp;loop=1&amp;playlist=NQiACUOMe8s&amp;controls=0"
+                            title="Space-station maintenance arm capstone demo"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen
+                            loading="lazy"></iframe>
+                </figure>
+                <div class="card__body">
+                    <span class="tag">Robotics</span>
+                    <h3>Undergrad Capstone - Space-Station Arm Concept</h3>
+                    <p class="card__desc">1st place, advisors from MDA and the
+                        CSA: a modular autonomous arm built to automate exterior
+                        maintenance tasks astronauts perform on EVA.</p>
+                    <ul class="specs">
+                        <li>AprilTag vision</li>
+                        <li>Inverse kinematics</li>
+                        <li>CAN &middot; RS485 &middot; UART</li>
+                    </ul>
+                    <div class="repos">
+                        <a href="https://github.com/danielljeon/capstone2026">capstone2026</a>
+                    </div>
+                </div>
+            </article>
+
+            <article class="card">
+                <figure class="card__cover">
+                    <img src="assets/pictures/nerve.jpeg"
+                         alt="The Nerve controller" loading="lazy">
+                </figure>
+                <div class="card__body">
+                    <span class="tag">Hardware &amp; Controls</span>
+                    <h3>Nerve - 3x PCB Stack Controls Testbed</h3>
+                    <p class="card__desc">Personal controls testbed for
+                        rocketry, robotics and automotive.</p>
+                    <ul class="specs">
+                        <li>4- &amp; 6-layer PCB, DFM/DFA</li>
+                        <li>STM32F446RE firmware</li>
+                        <li>CAN &middot; I2C &middot; SPI &middot; UART</li>
+                        <li>Barometer &middot; GNSS &middot; IMU &middot; XBee
+                        </li>
+                    </ul>
+                    <div class="repos">
+                        <a href="https://github.com/danielljeon/nerve">nerve</a>
+                        <a href="https://github.com/danielljeon/nerve_pcb">nerve_pcb</a>
+                        <a href="https://github.com/danielljeon/gopher">gopher</a>
+                    </div>
+                </div>
+            </article>
+
+            <article class="card">
+                <figure class="card__cover">
+                    <img src="assets/pictures/soft_gripper.jpeg"
+                         alt="soft_gripper image" loading="lazy">
+                </figure>
+                <div class="card__body">
+                    <span class="tag">Soft robotics</span>
+                    <h3>Soft Robotic Gripper</h3>
+                    <p class="card__desc">A pneumatic gripper built around
+                        silicone-mold design, with the mold geometry automated
+                        in software for rapid design iteration.</p>
+                    <ul class="specs">
+                        <li>Compliant manipulators</li>
+                        <li>CAD &amp; FEA analysis</li>
+                        <li>Python STL manipulation</li>
+                    </ul>
+                    <div class="repos">
+                        <a href="https://github.com/danielljeon/soft_solution">soft_solution</a>
+                    </div>
+                </div>
+            </article>
+
+            <article class="card">
+                <figure class="card__cover">
+                    <img src="assets/pictures/robotic_hand.gif"
+                         alt="robotic_hand image" loading="lazy">
+                </figure>
+                <div class="card__body">
+                    <span class="tag">Mechatronics</span>
+                    <h3>Robotic Hand - 5-DOF Humanoid Prototype</h3>
+                    <p class="card__desc">A five-degree-of-freedom hand built
+                        for actuator/power-electronics and
+                        sensors/instrumentation coursework.</p>
+                    <ul class="specs">
+                        <li>PCB design</li>
+                        <li>STM32F446RE firmware</li>
+                        <li>PSpice buck-circuit sim</li>
+                    </ul>
+                    <div class="repos">
+                        <a href="https://github.com/danielljeon/robotic_hand">robotic_hand</a>
+                        <a href="https://github.com/danielljeon/robotic_hand_pcb">robotic_hand_pcb</a>
+                    </div>
+                </div>
+            </article>
+
+            <article class="card">
+                <figure class="card__cover">
+                    <img src="assets/pictures/fsae.jpg"
+                         alt="fsae image" loading="lazy">
+                </figure>
+                <div class="card__body">
+                    <span class="tag">Automotive</span>
+                    <h3>Formula SAE Electric - Too Many Projects</h3>
+                    <p class="card__desc">Multi-year involvement spanning an
+                        FSAE Electric team's firmware, software and electrical
+                        departments, focused on supporting integration across
+                        teams.</p>
+                    <ul class="specs">
+                        <li>Signals &amp; telemetry</li>
+                        <li>PCB hardware</li>
+                        <li>Electrical</li>
+                        <li>Composites</li>
+                    </ul>
+                </div>
+            </article>
+
+            <article class="card">
+                <figure class="card__cover">
+                    <img src="assets/pictures/drop_detect.gif"
+                         alt="drop_detect image" loading="lazy">
+                </figure>
+                <div class="card__body">
+                    <span class="tag">Real-time systems</span>
+                    <h3>Drop Detect - RTOS Soldering-Iron Shield</h3>
+                    <p class="card__desc">A drop-triggered safety shield for a
+                        soldering iron, built for a real-time embedded systems
+                        course on top of FreeRTOS.</p>
+                    <ul class="specs">
+                        <li>STM32L432KC &middot; FreeRTOS</li>
+                        <li>Real-time scheduling</li>
+                        <li>Static code analysis</li>
+                    </ul>
+                    <div class="repos">
+                        <a href="https://github.com/danielljeon/drop_detect">drop_detect</a>
+                    </div>
+                </div>
+            </article>
+
+            <article class="card">
+                <figure class="card__cover">
+                    <img src="assets/pictures/cv_relevance_learning.png"
+                         alt="cv_relevance_learning image" loading="lazy">
+                </figure>
+                <div class="card__body">
+                    <span class="tag">AI &amp; Machine learning</span>
+                    <h3>CV Relevance Learning</h3>
+                    <p class="card__desc">An online-learning relevance
+                        classifier layered on top of pre-trained computer
+                        vision, built for a machine learning course.</p>
+                    <ul class="specs">
+                        <li>k-Nearest Neighbours</li>
+                        <li>Incremental Gaussian Naive Bayes</li>
+                        <li>YOLOv5 detection</li>
+                    </ul>
+                    <div class="repos">
+                        <a href="https://github.com/danielljeon/cv_relevance_learning">cv_relevance_learning</a>
+                    </div>
+                </div>
+            </article>
+
+        </div>
+    </section>
+</main>
+
+<!-- ===== Footer: drawing-sheet title block ===== -->
+<footer class="sheet">
+    <div class="sheet__cell sheet__cell--wide">
+        <span class="sheet__k">Made by</span>
+        <span class="sheet__v">Daniel Jeon</span>
+    </div>
+    <div class="sheet__cell">
+        <span class="sheet__k">Source</span>
+        <span class="sheet__v"><a
+                href="https://github.com/danielljeon/danielljeon.github.io">danielljeon.github.io</a></span>
+    </div>
+</footer>
+
+</body>
+</html>
